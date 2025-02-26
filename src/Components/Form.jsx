@@ -15,7 +15,7 @@ const Form = () => {
   };
 
   return (
-    <div  className="border-3 p-7 rounded-xl shadow-xl ">
+    <div  className="border-3 p-10 rounded-xl shadow-xl ">
         <h1 className="text-center text-2xl mb-6 font-bold">SignUp Form</h1>
       <form className=" flex flex-col items-center justify-center" onSubmit={handleFunction}>
         <input className="border-2 py-2 px-4 mb-4 rounded-sm"
