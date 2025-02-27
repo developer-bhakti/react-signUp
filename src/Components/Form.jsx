@@ -13,7 +13,7 @@ const Form = () => {
     setEmail("");
     setPassword("");
   };
-
+  
   return (
     <div  className="border-3 p-10 rounded-xl shadow-xl ">
         <h1 className="text-center text-2xl mb-6 font-bold">SignUp Form</h1>
