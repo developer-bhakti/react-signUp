@@ -7,7 +7,7 @@ const Card = ({ task, doneTask, id }) => {
       <h1 className="text-2xl">{task}</h1>
       <button
         onClick={() => doneTask(id)}
-        className="border-2 py-2.5 px-4 mt-2.5 hover:bg-black hover:text-white"
+        className="border-2 py-3 px-4 mt-2.5 hover:bg-black hover:text-white"
       >
         Done Task
       </button>
